@@ -7,3 +7,7 @@ export interface prnData {
   refl: string; // Reflexive
   top: string; // Type of person
 }
+
+export function capatialize(s: string): string {
+  return String(s[0]).toUpperCase() + String(s).slice(1);
+}
