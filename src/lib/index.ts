@@ -6,6 +6,7 @@ export interface prnData {
   possDeter: string; // Possessive Determiner
   refl: string; // Reflexive
   top: string; // Type of person
+  plural: boolean;
 }
 
 export function capatialize(s: string): string {

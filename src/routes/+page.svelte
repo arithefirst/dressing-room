@@ -1,6 +1,6 @@
 <script lang="ts">
   import '../app.postcss';
-  import { AppShell, AppRail } from '@skeletonlabs/skeleton';
+  import { AppShell, AppRail, SlideToggle } from '@skeletonlabs/skeleton';
   import type { prnData } from '$lib';
   import { onMount } from 'svelte';
   import Text from '$lib/Text.svelte';
@@ -17,7 +17,8 @@
     possDeter: 'her',
     poss: 'hers',
     refl: 'herself',
-    top: 'girl'
+    top: 'girl',
+    plural: false
   };
 </script>
 
@@ -66,8 +67,22 @@
           <label for="top" class="mr-2">Identity</label>
           <input class="input h-6 w-1/2" id="top" bind:value={dataObj.top} type="text" />
         </div>
+        <div class="flex justify-center items-center my-0.5">
+          <SlideToggle name="plural" size="sm" active="bg-secondary-500" bind:checked={dataObj.plural}
+            >Plural</SlideToggle
+          >
+        </div>
       </div>
     </AppRail>
   </svelte:fragment>
-  <Text name={dataObj.name} subj={dataObj.subj} obj={dataObj.obj} possDeter={dataObj.possDeter} poss={dataObj.poss} refl={dataObj.refl} top={dataObj.top} />
+  <Text
+    name={dataObj.name}
+    subj={dataObj.subj}
+    obj={dataObj.obj}
+    possDeter={dataObj.possDeter}
+    poss={dataObj.poss}
+    refl={dataObj.refl}
+    top={dataObj.top}
+    plural={dataObj.plural}
+  />
 </AppShell>
