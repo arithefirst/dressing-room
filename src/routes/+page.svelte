@@ -67,10 +67,10 @@
           <label for="top" class="mr-2">Identity</label>
           <input class="input h-6 w-1/2" id="top" bind:value={dataObj.top} type="text" />
         </div>
-        <div class="flex justify-center items-center my-0.5">
-          <SlideToggle name="plural" size="sm" active="bg-secondary-500" bind:checked={dataObj.plural}
-            >Plural</SlideToggle
-          >
+        <hr class="border-white border-2 my-1">
+        <div class="flex flex-col justify-center items-center my-0.5">
+          <SlideToggle name="plural" size="sm" active="bg-secondary-500" bind:checked={dataObj.plural}/>
+          <p>Plural</p>
         </div>
       </div>
     </AppRail>
