@@ -31,5 +31,13 @@
       cut it {refl}.
     </p>
     <p class="text-xs px-4">Authored by <a class="underline" href="https://www.arithefirst.com">arithefirst</a></p>
+
+    <p class="pt-6 px-4">
+      Hey, it's {name}! {subj}'{#if plural}re{:else}s{/if} so cute and smart! {name} is real good with computers too, {subj}
+      helped me out recently. I hope I'll be meeting {obj} again soon, I love to hang out with {obj}!
+    </p>
+    <p class="text-xs px-4">
+      Authored by <a class="underline" href="https://reddit.com/u/Dojo-Tekina">u/Dojo-Tekina</a>
+    </p>
   </div>
 </div>
