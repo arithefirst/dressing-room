@@ -12,7 +12,7 @@
       </svelte:fragment>
       <svelte:fragment slot="trail">
         <AppRailAnchor href="https://www.arithefirst.com/" target="_blank" title="Made by Arithefirst">
-          <img alt="cat from 2023 steam summer sale" src="/favicon.png" class="w-1/2 m-auto" />
+          <img alt="cat from 2023 steam summer sale" src="/arithefirst.png" class="w-1/2 m-auto" />
         </AppRailAnchor>
       </svelte:fragment>
     </AppRail>
