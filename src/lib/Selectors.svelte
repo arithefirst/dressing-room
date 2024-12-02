@@ -35,7 +35,7 @@
   </div>
   <hr class="border-white border-2 my-1" />
   <div class="flex flex-col justify-center items-center my-0.5">
-    <SlideToggle name="plural" size="sm" active="bg-primary-500" bind:checked={dataObj.plural} />
+    <SlideToggle name="plural" label="Toggle pronoun plurality" size="sm" active="bg-primary-500" bind:checked={dataObj.plural} />
     <p>Plural</p>
   </div>
 </div>
