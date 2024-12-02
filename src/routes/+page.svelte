@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import Text from '$lib/Text.svelte';
+  import Footer from '$lib/Footer.svelte';
   let darkMode: boolean = $state(true);
 
   onMount(() => {
@@ -18,6 +19,7 @@
   {/if}
 </svelte:head>
 
-<div>
+<div class="relative h-full">
   <Text />
+  <Footer />
 </div>
