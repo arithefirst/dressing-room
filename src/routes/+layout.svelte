@@ -14,7 +14,7 @@
   <svelte:fragment slot="sidebarLeft">
     <AppRail class="w-64">
       <svelte:fragment slot="lead">
-        <p class="font-bold text-center p-1.5 variant-filled-secondary">Pronoun Dressing Room</p>
+        <p class="font-bold text-center p-1.5 variant-filled-secondary rounded-b-lg">Pronoun Dressing Room</p>
       </svelte:fragment>
       <Selectors bind:dataObj />
     </AppRail>
