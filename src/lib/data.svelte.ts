@@ -15,6 +15,6 @@ export function getDataStore() {
   return {
     get data() {
       return dataStore;
-    },
+    }
   };
 }

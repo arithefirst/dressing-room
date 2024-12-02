@@ -1,7 +1,7 @@
 <script lang="ts">
-import { SlideToggle } from '@skeletonlabs/skeleton';
-import type { prnData } from '$lib/index';
-export let dataObj: prnData;
+  import { SlideToggle } from '@skeletonlabs/skeleton';
+  import type { prnData } from '$lib/index';
+  export let dataObj: prnData;
 </script>
 
 <div class="grid p-4">

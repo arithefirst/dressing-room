@@ -19,5 +19,5 @@
 </svelte:head>
 
 <div class="h-full">
-  <Text/>
+  <Text />
 </div>

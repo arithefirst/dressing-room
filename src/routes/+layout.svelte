@@ -1,13 +1,13 @@
 <script lang="ts">
   import '../app.postcss';
   import { AppShell, AppRail } from '@skeletonlabs/skeleton';
-  import { getDataStore } from "$lib/data.svelte"
+  import { getDataStore } from '$lib/data.svelte';
   import type { prnData } from '$lib';
   import Selectors from '$lib/Selectors.svelte';
-  const { children } = $props()
+  const { children } = $props();
 
-  const dataStore = getDataStore()
-  let dataObj: prnData = $state(dataStore.data)
+  const dataStore = getDataStore();
+  let dataObj: prnData = $state(dataStore.data);
 </script>
 
 <AppShell>
