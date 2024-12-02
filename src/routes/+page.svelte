@@ -17,7 +17,7 @@
   {/if}
 </svelte:head>
 
-<div class="relative h-full">
+<div class="relative h-full" role="main">
   <Text />
   <Footer />
 </div>

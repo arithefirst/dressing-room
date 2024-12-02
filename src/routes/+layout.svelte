@@ -12,21 +12,25 @@
 
 <AppShell>
   <svelte:fragment slot="sidebarLeft">
-    <AppRail class="w-64 md:block hidden">
-      <svelte:fragment slot="lead">
-        <p class="font-bold text-center p-1.5 variant-filled-secondary rounded-b-lg">Pronoun Dressing Room</p>
-      </svelte:fragment>
-      <Selectors bind:dataObj />
-    </AppRail>
-  </svelte:fragment>
-  <Accordion class="md:hidden block fixed top-0 left-0 variant-filled-secondary rounded-b-lg z-10">
-    <AccordionItem>
-      <svelte:fragment slot="summary">Pronoun Dressing Room (settings)</svelte:fragment>
-      <svelte:fragment slot="content">
+    <div class="h-full" role="navigation">
+      <AppRail class="w-64 md:block hidden">
+        <svelte:fragment slot="lead">
+          <p class="font-bold text-center p-1.5 variant-filled-secondary rounded-b-lg">Pronoun Dressing Room</p>
+        </svelte:fragment>
         <Selectors bind:dataObj />
-      </svelte:fragment>
-    </AccordionItem>
-  </Accordion>
+      </AppRail>
+    </div>
+  </svelte:fragment>
+  <div role="navigation">
+    <Accordion class="md:hidden block fixed top-0 left-0 variant-filled-secondary rounded-b-lg z-10" role="navigation">
+      <AccordionItem>
+        <svelte:fragment slot="summary">Pronoun Dressing Room (settings)</svelte:fragment>
+        <svelte:fragment slot="content">
+          <Selectors bind:dataObj />
+        </svelte:fragment>
+      </AccordionItem>
+    </Accordion>
+  </div>
   <div class="mt-10 md:mt-0"></div>
   {@render children()}
 </AppShell>
