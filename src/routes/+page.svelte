@@ -18,6 +18,6 @@
   {/if}
 </svelte:head>
 
-<div class="h-full">
+<div>
   <Text />
 </div>
