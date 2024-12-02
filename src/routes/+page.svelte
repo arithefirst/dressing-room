@@ -1,11 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import Text from '$lib/Text.svelte';
-  import { getDataStore } from '$lib/data.svelte';
-  import type { prnData } from '$lib';
   let darkMode: boolean = $state(true);
-  const dataStore = getDataStore()
-  let dataObj: prnData = $state(dataStore.data)
 
   onMount(() => {
     darkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -23,14 +19,5 @@
 </svelte:head>
 
 <div class="h-full">
-  <Text
-    name={dataObj.name}
-    subj={dataObj.subj}
-    obj={dataObj.obj}
-    possDeter={dataObj.possDeter}
-    poss={dataObj.poss}
-    refl={dataObj.refl}
-    top={dataObj.top}
-    plural={dataObj.plural}
-  />
+  <Text/>
 </div>
