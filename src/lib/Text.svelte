@@ -6,7 +6,7 @@
   let dataObj: prnData = $state(dataStore.data);
 </script>
 
-<div class="w-full h-fit p-4">
+<div class="w-full h-fit p-4 mb-4">
   <div class="w-full h-full card variant-ghost-surface">
     <p class="pt-4 px-4">
       Today I met a {dataObj.top} who goes by {dataObj.name}. {capatialize(dataObj.subj)}

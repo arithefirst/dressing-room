@@ -19,7 +19,7 @@
       <Selectors bind:dataObj />
     </AppRail>
   </svelte:fragment>
-  <Accordion class="md:hidden block fixed top-0 left-0 variant-filled-secondary rounded-b-lg">
+  <Accordion class="md:hidden block fixed top-0 left-0 variant-filled-secondary rounded-b-lg z-10">
     <AccordionItem>
       <svelte:fragment slot="summary">Pronoun Dressing Room (settings)</svelte:fragment>
       <svelte:fragment slot="content">
