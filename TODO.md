@@ -2,4 +2,4 @@
 
 - [ ] Create CONTRIBUTING.md
 - [ ] Create GH issue templates
-- [ ] Pick a license
+- [x] Pick a license
