@@ -1,5 +1,6 @@
 # TODO
 
 - [ ] Create CONTRIBUTING.md
-- [ ] Create GH issue templates
+- [ ] Write contribution instructions
+- [X] Create GH issue templates
 - [x] Pick a license

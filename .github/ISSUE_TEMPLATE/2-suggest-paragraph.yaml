@@ -1,0 +1,24 @@
+name: Suggest a Paragraph
+title: "[ PG ] "
+description: Suggest a pronoun testing paragraph for the website
+
+assignees: ["arithefirst"]
+labels: ["new paragraph"]
+
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Fill out the below textbox with the following placeholders<br>
+        - Name: `{name}`<br>
+        - Subjective: `{subj}`<br>
+        - Objective: `{obj}`<br> 
+        - Possessive Determiner: `{possDeter}`<br>
+        - Possessive: `{poss}`<br>
+        - Reflexive: `{refl}`<br>
+        - Type of person/Identity `{top}` (EX: Girl, Boy)<br>
+  - type: textarea
+    id: textarea-1
+    attributes:
+      value: Put your suggested paragraph here with the above placeholders.
+      label: Suggested Paragraph
