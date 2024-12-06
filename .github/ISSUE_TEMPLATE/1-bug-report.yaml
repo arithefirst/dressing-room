@@ -1,9 +1,9 @@
 name: Bug Report
-title: "[ BUG ] "
+title: '[ BUG ] '
 description: Report a bug or issue you encountered on the site
 
-assignees: ["arithefirst"]
-labels: ["bug"]
+assignees: ['arithefirst']
+labels: ['bug']
 
 body:
   - type: dropdown

@@ -1,9 +1,9 @@
 name: Suggest a Paragraph
-title: "[ PG ] "
+title: '[ PG ] '
 description: Suggest a pronoun testing paragraph for the website
 
-assignees: ["arithefirst"]
-labels: ["new paragraph"]
+assignees: ['arithefirst']
+labels: ['new paragraph']
 
 body:
   - type: markdown
